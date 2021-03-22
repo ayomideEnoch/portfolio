@@ -1,4 +1,4 @@
-# vue2app
+# Ayomide Ibosiola
 
 ## Project setup
 ```
