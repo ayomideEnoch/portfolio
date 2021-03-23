@@ -1,9 +1,10 @@
 <template>
   <div class="min-h-screen w-full bg-b" style="background-color: #151618">
-    <section class="flex justify-between px-24 pt-8 text-gray-300">
+    <section class="flex justify-between px-24 pt-12 text-gray-300">
       <div>
         <button class="flex items-center focus:outline-none">
-          <img class="w-16" src="./assets/AYOMIDE.webp" alt="" />
+          <i class="fas fa-laptop-code"></i>
+          <!-- <img class="w-16" src="./assets/AYOMIDE.webp" alt="" /> -->
           <div class="font-bold cursor pl-5">AYOMIDE IBOSIOLA</div>
         </button>
       </div>
