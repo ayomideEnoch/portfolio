@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen w-full bg-b" style="background-color: #151618">
-    <section class="flex justify-between px-24 pt-12 text-gray-300">
+    <section class="flex justify-between lg:px-24 md:px-12 px-4 pt-12 text-gray-300">
       <div>
         <button class="flex items-center focus:outline-none">
           <i class="fas fa-laptop-code"></i>
@@ -9,12 +9,21 @@
         </button>
       </div>
 
-      <div class="flex space-x-12">
+      <div class="sm:flex space-x-12 hidden">
         <button class="font-bold focus:outline-none">ABOUT</button>
         <button class="font-bold focus:outline-none">PORTFOLIO</button>
         <button class="font-bold focus:outline-none">CONTACT</button>
       </div>
+      <div @click="mobileMenu = true" class="block sm:hidden text-2xl cursor-pointer">
+        <i class="far fa-bars"></i>
+      </div>
     </section>
+    <div v-if="mobileMenu" class="bg-black z-10 fixed inset-0 w-full h-screen">
+      <div class="bg-white w-4/5 h-screen z-20 fixed right-0 top-0">
+        <!-- <i class="far fa-times"></i> -->
+        <p>hi</p>
+      </div>
+    </div>
 
     <section>
       <div class="flex items-center justify-center mt-12">
@@ -71,7 +80,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      mobileMenu: false,
+    };
+  },
+};
 </script>
 
 <style></style>
