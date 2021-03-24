@@ -116,6 +116,19 @@
         </p>
       </div>
     </section>
+    <!-- About Me -->
+    <section class="mt-32">
+      <div class="font-semibold">
+        <div class="flex items-center font-semibold">
+          <i class="text-yellow-500 fas fa-hand-peace"></i>
+          <p class="text-gray-500 pl-3">Welcome / Ẹ káàbọ̀</p>
+        </div>
+        <p class="text-gray-500 py-3 spacing text-3xl">My name is Ayomide Ibosiola.</p>
+        <p class="text-white text-3xl">
+          I'm a Nigerian Frontend Developer based in Ikosi-Ketu, Lagos state, Nigeria.
+        </p>
+      </div>
+    </section>
   </div>
 </template>
 
