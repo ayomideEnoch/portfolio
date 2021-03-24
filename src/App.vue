@@ -74,7 +74,7 @@
               SENSIBLE TO FRONTEND
             </p>
           </div>
-          <div class="order-first justify-center lg:pt-0 pt-8">
+          <div class="order-first lg:block justify-center lg:pt-0 pt-8">
             <div class="cursor-pointer space-y-4">
               <div
                 class="text-xs font-semibold text-black bg-white rounded-full p-1 items-center justify-center w-4 flex h-4"
