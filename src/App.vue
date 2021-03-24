@@ -117,7 +117,7 @@
       </div>
     </section>
     <!-- About Me -->
-    <section class="mt-32">
+    <section class="mt-32 pb-16">
       <div class="font-semibold">
         <div class="flex items-center font-semibold">
           <i class="text-yellow-500 fas fa-hand-peace"></i>
@@ -175,9 +175,9 @@
             </div>
             <div class="flex justify-between text-sm mt-10">
               <p class="text-gray-500">
-                Feel free to <span class="text-white">drop me a line</span> or check my
-                <span class="text-white">GitHub</span> and
-                <span class="text-white"> LinkedIn</span>
+                Feel free to <span class="text-white cursor-pointer">drop me a line</span> or check my
+                <span class="text-white cursor-pointer">GitHub</span> and
+                <span class="text-white cursor-pointer"> LinkedIn</span>
               </p>
             </div>
           </div>
