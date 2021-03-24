@@ -127,6 +127,25 @@
         <p class="text-white text-3xl">
           I'm a Nigerian Frontend Developer based in Ikosi-Ketu, Lagos state, Nigeria.
         </p>
+        <div class="flex">
+          <div class="w-2/5 mt-16 text-2xl text-white">
+            <p>
+              Interested in crafting
+              <span class="text-gray-500">more cohesive </span> product experiences for
+              humans
+              <span class="text-gray-500">
+                and design work holistically across a product.
+              </span>
+            </p>
+            <p class="text-gray-500 text-sm pt-7">
+              That means potential research, visual and code.
+            </p>
+          </div>
+          <div class="w-1/5"></div>
+          <div class="w-2/5">
+            <p class="text-sm text-white">Experience</p>
+          </div>
+        </div>
       </div>
     </section>
   </div>
