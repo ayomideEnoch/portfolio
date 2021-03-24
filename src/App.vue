@@ -160,18 +160,25 @@
             </div>
             <div class="pt-4">
               <div class="flex justify-between text-sm">
-                <p class="text-white">Freelance</p>
-                <p class="text-gray-500">2019 - Present</p>
+                <p class="text-white">Midra Solutions</p>
+                <p class="text-gray-500">2019 - 2020</p>
               </div>
               <p class="text-gray-500 text-sm">Frontend Developer</p>
             </div>
 
             <div class="pt-4">
               <div class="flex justify-between text-sm">
-                <p class="text-white">Royal Crystal Airways</p>
-                <p class="text-gray-500">2020 - 2021</p>
+                <p class="text-white">Lagosbuild</p>
+                <p class="text-gray-500">2017 - 2019</p>
               </div>
               <p class="text-gray-500 text-sm">Frontend Developer</p>
+            </div>
+            <div class="flex justify-between text-sm mt-10">
+              <p class="text-gray-500">
+                Feel free to <span class="text-white">drop me a line</span> or check my
+                <span class="text-white">GitHub</span> and
+                <span class="text-white"> LinkedIn</span>
+              </p>
             </div>
           </div>
         </div>
