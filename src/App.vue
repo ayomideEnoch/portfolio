@@ -46,7 +46,7 @@
     </div>
 
     <section>
-      <div class="justify-between items-center mt-12 xl:mt-4">
+      <div class="mt-12 xl:mt-4">
         <!--  -->
         <div class="items-center lg:flex">
           <div class="">
@@ -74,28 +74,28 @@
               SENSIBLE TO FRONTEND
             </p>
           </div>
-          <div class="order-first xl:block flex justify-center lg:pt-0 pt-8">
-            <div class="cursor-pointer space-y-4">
+          <div class="order-first lg:pt-0 pt-8">
+            <div class="flex lg:block cursor-pointer items-center justify-center">
               <div
-                class="text-xs font-semibold text-black bg-white rounded-full p-1 items-center justify-center w-4 flex h-4"
+                class="text-xs font-semibold text-black bg-white rounded-full m-4 items-center justify-center w-4 flex h-4"
               >
                 <i class="fab fa-facebook-f"></i>
               </div>
 
               <div
-                class="text-xs font-semibold text-black bg-white rounded-full p-1 justify-center items-center w-4 flex h-4"
+                class="text-xs font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-4 flex h-4"
               >
                 <i class="fab fa-twitter"></i>
               </div>
 
               <div
-                class="text-xs font-semibold text-black bg-white rounded-full p-1 justify-center items-center w-4 flex h-4"
+                class="text-xs font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-4 flex h-4"
               >
                 <i class="fab fa-github"></i>
               </div>
 
               <div
-                class="text-xs font-semibold text-black bg-white rounded-full p-1 justify-center items-center w-4 flex h-4"
+                class="text-xs font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-4 flex h-4"
               >
                 <i class="fab fa-linkedin-in"></i>
               </div>
