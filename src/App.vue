@@ -28,7 +28,7 @@
     >
       <div
         @click="mobileMenu = false"
-        class="text-white cursor-pointer pt-10 sm:pl-20 pl-20 text-2xl"
+        class="w-1/5 text-white cursor-pointer pt-10 pr-6 text-right text-2xl"
       >
         <i class="far fa-times"></i>
       </div>
