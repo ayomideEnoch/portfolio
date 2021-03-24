@@ -145,20 +145,32 @@
           <div class="w-2/5">
             <p class="text-md text-white">Experience</p>
             <div class="pt-4">
-              <p class="text-white">Royal Crystal Airways</p>
-              <p class="text-gray-500">Frontend Engineer</p>
+              <div class="flex justify-between text-sm">
+                <p class="text-white">Freelance</p>
+                <p class="text-gray-500">2019 - Present</p>
+              </div>
+              <p class="text-gray-500 text-sm">Frontend Developer</p>
             </div>
-             <div class="pt-4">
-              <p class="text-white">Royal Crystal Airways</p>
-              <p class="text-gray-500">Frontend Engineer</p>
+            <div class="pt-4">
+              <div class="flex justify-between text-sm">
+                <p class="text-white">Freelance</p>
+                <p class="text-gray-500">2019 - Present</p>
+              </div>
+              <p class="text-gray-500 text-sm">Frontend Developer</p>
             </div>
-             <div class="pt-4">
-              <p class="text-white">Royal Crystal Airways</p>
-              <p class="text-gray-500">Frontend Engineer</p>
+            <div class="pt-4">
+              <div class="flex justify-between text-sm">
+                <p class="text-white">Freelance</p>
+                <p class="text-gray-500">2019 - Present</p>
+              </div>
+              <p class="text-gray-500 text-sm">Frontend Developer</p>
             </div>
-             <div class="pt-4">
-              <p class="text-white">Royal Crystal Airways</p>
-              <p class="text-gray-500">Frontend Engineer</p>
+            <div class="pt-4">
+              <div class="flex justify-between text-sm">
+                <p class="text-white">Freelance</p>
+                <p class="text-gray-500">2019 - Present</p>
+              </div>
+              <p class="text-gray-500 text-sm">Frontend Developer</p>
             </div>
           </div>
         </div>
