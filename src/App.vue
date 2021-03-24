@@ -153,8 +153,8 @@
             </div>
             <div class="pt-4">
               <div class="flex justify-between text-sm">
-                <p class="text-white">Freelance</p>
-                <p class="text-gray-500">2019 - Present</p>
+                <p class="text-white">Royal Crystal Airways</p>
+                <p class="text-gray-500">2020 - 2021</p>
               </div>
               <p class="text-gray-500 text-sm">Frontend Developer</p>
             </div>
@@ -165,10 +165,11 @@
               </div>
               <p class="text-gray-500 text-sm">Frontend Developer</p>
             </div>
+
             <div class="pt-4">
               <div class="flex justify-between text-sm">
-                <p class="text-white">Freelance</p>
-                <p class="text-gray-500">2019 - Present</p>
+                <p class="text-white">Royal Crystal Airways</p>
+                <p class="text-gray-500">2020 - 2021</p>
               </div>
               <p class="text-gray-500 text-sm">Frontend Developer</p>
             </div>
