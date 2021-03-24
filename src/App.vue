@@ -127,8 +127,8 @@
         <p class="text-white text-3xl">
           I'm a Nigerian Frontend Developer based in Ikosi-Ketu, Lagos state, Nigeria.
         </p>
-        <div class="flex">
-          <div class="w-2/5 mt-16 text-2xl text-white">
+        <div class="mt-16 flex">
+          <div class="w-2/5 text-2xl text-white">
             <p>
               Interested in crafting
               <span class="text-gray-500">more cohesive </span> product experiences for
@@ -143,7 +143,11 @@
           </div>
           <div class="w-1/5"></div>
           <div class="w-2/5">
-            <p class="text-sm text-white">Experience</p>
+            <p class="text-md text-white">Experience</p>
+            <div class="pt-4">
+              <p class="text-white">Royal Crystal Airways</p>
+              <p class="text-gray-500">Frontend Engineer</p>
+            </div>
           </div>
         </div>
       </div>
