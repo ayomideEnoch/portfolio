@@ -127,8 +127,8 @@
         <p class="text-white text-3xl">
           I'm a Nigerian Frontend Developer based in Ikosi-Ketu, Lagos state, Nigeria.
         </p>
-        <div class="mt-16 flex">
-          <div class="w-2/5 text-2xl text-white">
+        <div class="mt-16 sm:flex block">
+          <div class="sm:w-6/12 w-full text-2xl text-white sm:mr-4 mr-0">
             <p>
               Interested in crafting
               <span class="text-gray-500">more cohesive </span> product experiences for
@@ -140,9 +140,47 @@
             <p class="text-gray-500 text-sm py-7">
               That means potential research, visual and code.
             </p>
+            <!-- My skills -->
+            <div class="w-full border-b-2 border-yellow-300 mb-2"></div>
+            <div>
+              <p class="text-sm text-gray-500 font-semibold mb-2">MY SKILLS</p>
+
+              <!--  -->
+              <div class="flex flex-wrap w-full">
+                <div
+                  class="sm:w-1/2 w-full flex items-center mb-3"
+                  v-for="skill in skills"
+                  :key="skill.index"
+                >
+                  <div
+                    class="sm:w-10 w-9 h-9 bg-gray-700 rounded-full flex items-center justify-center"
+                  >
+                    <div class="font-normal">
+                      <i class="" :class="skill.icon"> </i>
+                    </div>
+                  </div>
+                  <div class="ml-3 w-full">
+                    <p class="text-base font-normal mb-2">
+                      {{ skill.name }}
+                    </p>
+                    <div
+                      class="h-2 sm:w-11/12 w-full relative rounded-full bg-gray-100 overflow-hidden"
+                    >
+                      <div
+                        class="h-full absolute bg-green-500 rounded-full"
+                        style=""
+                        :style="{ width: skill.progress }"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--  -->
+            </div>
           </div>
-          <div class="w-1/5"></div>
-          <div class="w-2/5">
+          <div class="w-1/12 mb-4"></div>
+          <div class="sm:w-5/12 w-full">
             <p class="text-md text-white">Experience</p>
             <div class="pt-4">
               <div class="flex justify-between text-sm">
@@ -193,6 +231,48 @@ export default {
   data() {
     return {
       mobileMenu: false,
+      skills: [
+        {
+          name: "VueJS",
+          icon: "fab fa-vuejs text-green-500",
+          progress: "90%",
+        },
+        {
+          name: "ReactJS",
+          icon: "fab fa-react text-blue-500",
+          progress: "80%",
+        },
+        {
+          name: "JavaScript",
+          icon: "fab fa-js text-yellow-300",
+          progress: "75%",
+        },
+        {
+          name: "HTML",
+          icon: "fab fa-html5 text-red-600",
+          progress: "95%",
+        },
+        {
+          name: "CSS",
+          icon: "fab fa-css3-alt text-blue-500",
+          progress: "90%",
+        },
+        {
+          name: "Tailwind CSS",
+          icon: "fab fa-tailwind",
+          progress: "89%",
+        },
+        {
+          name: "Bootstrap",
+          icon: "fab fa-bootstrap text-purple-400",
+          progress: "89%",
+        },
+        {
+          name: "Material UI",
+          icon: "fab fa-bootstrap",
+          progress: "89%",
+        },
+      ],
     };
   },
 };
