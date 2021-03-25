@@ -127,7 +127,7 @@
         <p class="text-white text-3xl">
           I'm a Nigerian Frontend Developer based in Ikosi-Ketu, Lagos state, Nigeria.
         </p>
-        <div class="mt-16 sm:flex block">
+        <div class="mt-8 sm:flex block">
           <div class="sm:w-6/12 w-full text-2xl text-white sm:mr-4 mr-0">
             <p>
               Interested in crafting
@@ -153,11 +153,9 @@
                   :key="skill.index"
                 >
                   <div
-                    class="sm:w-10 w-9 h-9 bg-gray-700 rounded-full flex items-center justify-center"
+                    class="sm:w-10 w-9 h-9 bg-gray-700 rounded-full flex items-center justify-center font-normal"
                   >
-                    <div class="font-normal">
-                      <i class="" :class="skill.icon"> </i>
-                    </div>
+                    <i class="" :class="skill.icon"> </i>
                   </div>
                   <div class="ml-3 w-full">
                     <p class="text-base font-normal mb-2">
@@ -259,18 +257,18 @@ export default {
         },
         {
           name: "Tailwind CSS",
-          icon: "fab fa-tailwind",
-          progress: "89%",
+          icon: "fal fa-code text-base",
+          progress: "95%",
         },
         {
           name: "Bootstrap",
           icon: "fab fa-bootstrap text-purple-400",
-          progress: "89%",
+          progress: "90%",
         },
         {
           name: "Material UI",
-          icon: "fab fa-bootstrap",
-          progress: "89%",
+          icon: "fal fa-code text-base",
+          progress: "90%",
         },
       ],
     };
