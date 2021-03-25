@@ -137,7 +137,7 @@
                 and design work holistically across a product.
               </span>
             </p>
-            <p class="text-gray-500 text-sm pt-7">
+            <p class="text-gray-500 text-sm py-7">
               That means potential research, visual and code.
             </p>
           </div>
@@ -175,7 +175,8 @@
             </div>
             <div class="flex justify-between text-sm mt-10">
               <p class="text-gray-500">
-                Feel free to <span class="text-white cursor-pointer">drop me a line</span> or check my
+                Feel free to
+                <span class="text-white cursor-pointer">drop me a line</span> or check my
                 <span class="text-white cursor-pointer">GitHub</span> and
                 <span class="text-white cursor-pointer"> LinkedIn</span>
               </p>
