@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12"
-    style="background-color: #151618"
-  >
+  <div class="min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12 bg-black">
     <section class="flex justify-between text-gray-300">
       <div>
         <button class="flex items-center focus:outline-none">
@@ -107,7 +104,7 @@
       </div>
     </section>
     <section
-      class="flex justify-between text-gray-300 font-bold cursor-pointer xl:-mt-24 lg:-mt-1 md:-mt-6"
+      class="flex justify-between text-gray-300 font-bold cursor-pointer xl:-mt-12 lg:-mt-1 md:-mt-6"
     >
       <div class="text-8xl"><p>01</p></div>
       <div class="transform rotate-90">
@@ -238,7 +235,7 @@ export default {
         {
           name: "ReactJS",
           icon: "fab fa-react text-blue-500",
-          progress: "80%",
+          progress: "60%",
         },
         {
           name: "JavaScript",
@@ -257,7 +254,7 @@ export default {
         },
         {
           name: "Tailwind CSS",
-          icon: "fal fa-code text-base",
+          icon: "fas fa-code text-base",
           progress: "95%",
         },
         {
@@ -267,8 +264,8 @@ export default {
         },
         {
           name: "Material UI",
-          icon: "fal fa-code text-base",
-          progress: "90%",
+          icon: "fas fa-code text-base",
+          progress: "70%",
         },
       ],
     };
