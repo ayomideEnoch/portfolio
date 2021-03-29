@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div style="font-family: 'Roboto', sans-serif" class="">
     <section
       class="min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12"
       style="background-color: #2d2e32"
@@ -289,6 +289,4 @@ export default {
 };
 </script>
 
-<style>
-@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
-</style>
+<style></style>
