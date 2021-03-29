@@ -231,12 +231,12 @@
       </div>
     </section>
     <section
-      class="pb-16 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12 text-gray-300"
+      class="pb-16 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12"
       style="background-color: #191919"
     >
-      <div>
-        For enquires, conferences, work or technical workshops via my phone number and
-        email adrresses below
+      <div class="flex justify-center">
+        <p class="text-bold text-white text-4xl">Get in touch!</p>
+        <p class="text-semibold text-gray-300 text-2xl">For enquires, conferences, work or technical workshops.</p>
       </div>
       <div>b</div>
     </section>
