@@ -230,8 +230,14 @@
         </div>
       </div>
     </section>
-    <section>
-      <div>a</div>
+    <section
+      class="pb-16 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12 text-gray-300"
+      style="background-color: #191919"
+    >
+      <div>
+        For enquires, conferences, work or technical workshops via my phone number and
+        email adrresses below
+      </div>
       <div>b</div>
     </section>
   </div>
