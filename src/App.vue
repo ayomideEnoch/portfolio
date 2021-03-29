@@ -289,4 +289,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+</style>
