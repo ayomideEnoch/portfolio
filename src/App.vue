@@ -231,42 +231,17 @@
         my portfolio
       </div>
 
-      <div class="grid grid-flow-col grid-cols-2 grid-rows-3 gap-4 mt-10 mx-10">
+      <div class="grid grid-cols-2 gap-8 mt-10 mx-10">
         <div
-          class="text-white rounded-md cursor-pointer text-center"
-          style="background-color: #222230"
+          v-for="portfolio in portfolios"
+          :key="portfolio.index"
+          class="cursor-pointer h-96"
         >
-          1
-        </div>
-        <div
-          class="text-white rounded-md cursor-pointer text-center"
-          style="background-color: #222230"
-        >
-          1
-        </div>
-        <div
-          class="text-white rounded-md cursor-pointer text-center"
-          style="background-color: #222230"
-        >
-          1
-        </div>
-        <div
-          class="text-white rounded-md cursor-pointer text-center"
-          style="background-color: #222230"
-        >
-          1
-        </div>
-        <div
-          class="text-white rounded-md cursor-pointer text-center"
-          style="background-color: #222230"
-        >
-          1
-        </div>
-        <div
-          class="text-white rounded-md cursor-pointer text-center"
-          style="background-color: #222230"
-        >
-          1
+          <img
+            :src="require(`./assets/${portfolio.image}`)"
+            :alt="portfolio.title"
+            class="w-full h-full inset-0 object-cover rounded-md"
+          />
         </div>
       </div>
     </section>
@@ -364,6 +339,18 @@ export default {
   data() {
     return {
       mobileMenu: false,
+      portfolios: [
+        {
+          image: "port3.jpg",
+          title: "Invoice App",
+          description: "An invoice app that do, do and do, that do!",
+        },
+        {
+          image: "port2.jpg",
+          title: "Invoice App",
+          description: "An invoice app that do, do and do, that do!",
+        },
+      ],
       skills: [
         {
           name: "VueJS",
