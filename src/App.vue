@@ -230,48 +230,43 @@
       <div class="uppercase text-white text-3xl font-semibold text-center">
         my portfolio
       </div>
-      <div class="mt-10 mx-10">
-        <div class="flex space-x-6">
-          <div
-            class="w-1/2 text-center text-white rounded-md cursor-pointer"
-            style="background-color: #222230"
-          >
-            a
-          </div>
-          <div
-            class="w-1/2 text-center text-white rounded-md cursor-pointer"
-            style="background-color: #222230"
-          >
-            b
-          </div>
+
+      <div class="grid grid-flow-col grid-cols-2 grid-rows-3 gap-4 mt-10 mx-10">
+        <div
+          class="text-white rounded-md cursor-pointer text-center"
+          style="background-color: #222230"
+        >
+          1
         </div>
-        <div class="flex space-x-6 my-6">
-          <div
-            class="w-1/2 text-center text-white rounded-md cursor-pointer"
-            style="background-color: #222230"
-          >
-            a
-          </div>
-          <div
-            class="w-1/2 text-center text-white rounded-md cursor-pointer"
-            style="background-color: #222230"
-          >
-            b
-          </div>
+        <div
+          class="text-white rounded-md cursor-pointer text-center"
+          style="background-color: #222230"
+        >
+          1
         </div>
-        <div class="flex space-x-6">
-          <div
-            class="w-1/2 text-center text-white rounded-md cursor-pointer"
-            style="background-color: #222230"
-          >
-            a
-          </div>
-          <div
-            class="w-1/2 text-center text-white rounded-md cursor-pointer"
-            style="background-color: #222230"
-          >
-            b
-          </div>
+        <div
+          class="text-white rounded-md cursor-pointer text-center"
+          style="background-color: #222230"
+        >
+          1
+        </div>
+        <div
+          class="text-white rounded-md cursor-pointer text-center"
+          style="background-color: #222230"
+        >
+          1
+        </div>
+        <div
+          class="text-white rounded-md cursor-pointer text-center"
+          style="background-color: #222230"
+        >
+          1
+        </div>
+        <div
+          class="text-white rounded-md cursor-pointer text-center"
+          style="background-color: #222230"
+        >
+          1
         </div>
       </div>
     </section>
