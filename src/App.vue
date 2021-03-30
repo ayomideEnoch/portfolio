@@ -307,6 +307,13 @@
         </a>
       </div>
     </section>
+    <!-- Portfolio -->
+    <section
+      class="pb-16 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12"
+      style="background-color: #252628"
+    >
+      <div>a</div>
+    </section>
   </div>
 </template>
 
@@ -343,7 +350,7 @@ export default {
         },
         {
           name: "Tailwind CSS",
-          icon: "fas fa-code text-base",
+          icon: "fal fa-code text-base",
           progress: "95%",
         },
         {
@@ -353,7 +360,7 @@ export default {
         },
         {
           name: "Material UI",
-          icon: "fas fa-code text-base",
+          icon: "fal fa-code text-base",
           progress: "70%",
         },
       ],
