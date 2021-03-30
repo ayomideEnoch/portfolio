@@ -231,9 +231,47 @@
         my portfolio
       </div>
       <div class="mt-10 mx-10">
-        <div class="flex">
-          <div class="bg-gray-700 w-1/2 text-center text-white">a</div>
-          <div class="bg-gray-700 w-1/2 text-center text-white">b</div>
+        <div class="flex space-x-6">
+          <div
+            class="w-1/2 text-center text-white rounded-md cursor-pointer"
+            style="background-color: #222230"
+          >
+            a
+          </div>
+          <div
+            class="w-1/2 text-center text-white rounded-md cursor-pointer"
+            style="background-color: #222230"
+          >
+            b
+          </div>
+        </div>
+        <div class="flex space-x-6 my-6">
+          <div
+            class="w-1/2 text-center text-white rounded-md cursor-pointer"
+            style="background-color: #222230"
+          >
+            a
+          </div>
+          <div
+            class="w-1/2 text-center text-white rounded-md cursor-pointer"
+            style="background-color: #222230"
+          >
+            b
+          </div>
+        </div>
+        <div class="flex space-x-6">
+          <div
+            class="w-1/2 text-center text-white rounded-md cursor-pointer"
+            style="background-color: #222230"
+          >
+            a
+          </div>
+          <div
+            class="w-1/2 text-center text-white rounded-md cursor-pointer"
+            style="background-color: #222230"
+          >
+            b
+          </div>
         </div>
       </div>
     </section>
