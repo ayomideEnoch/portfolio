@@ -230,10 +230,11 @@
       <div class="uppercase text-white text-3xl font-semibold text-center">
         my portfolio
       </div>
-      <div class="mt-10 mx-10 ">
-        <div class="flex"><div class="bg-gray-900 w-1/2">a</div>
-        <div class="bg-gray-900 w-1/2">b</div></div>
-        
+      <div class="mt-10 mx-10">
+        <div class="flex">
+          <div class="bg-gray-700 w-1/2 text-center text-white">a</div>
+          <div class="bg-gray-700 w-1/2 text-center text-white">b</div>
+        </div>
       </div>
     </section>
     <!-- Contact Me -->
