@@ -9,7 +9,6 @@
         <div>
           <button class="flex items-center focus:outline-none">
             <i class="fas fa-laptop-code"></i>
-            <!-- <img class="w-16" src="./assets/AYOMIDE.webp" alt="" /> -->
             <div class="font-bold cursor pl-5">
               <span class="text-white">Ayòmídé</span> ÌBÒSÍOLÁ
             </div>
@@ -78,47 +77,47 @@
                 SENSIBLE TO FRONTEND
               </p>
             </div>
-            <div class="order-first lg:pt-0 pt-8">
-              <div class="flex lg:block cursor-pointer items-center justify-center">
-                <div
-                  class="text-xs font-semibold text-black bg-white rounded-full m-4 items-center justify-center w-4 flex h-4"
-                >
-                  <i class="fab fa-facebook-f"></i>
+            <div class="order-first lg:pt-0 pt-8 flex lg:block justify-center">
+              <a href="https://web.facebook.com/ayomide.ibosiola">
+                <div class="flex lg:block cursor-pointer items-center justify-center">
+                  <div
+                    class="text-xs font-semibold text-black bg-white rounded-full m-4 items-center justify-center w-5 flex h-5"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </div>
                 </div>
-
-                <div
-                  class="text-xs font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-4 flex h-4"
-                >
-                  <i class="fab fa-twitter"></i>
-                </div>
-
-                <div
-                  class="text-xs font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-4 flex h-4"
-                >
-                  <i class="fab fa-github"></i>
-                </div>
-
-                <div
-                  class="text-xs font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-4 flex h-4"
-                >
-                  <i class="fab fa-linkedin-in"></i>
-                </div>
-              </div>
+              </a>
+              <a href="https://twitter.com/ayomideIbosiola">
+                <div class="flex lg:block cursor-pointer items-center justify-center">
+                  <div
+                    class="text-xs font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-5 flex h-5"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </div></div
+              ></a>
+              <a href="https://github.com/ayomideEnoch">
+                <div class="flex lg:block cursor-pointer items-center justify-center">
+                  <div
+                    class="text-xs font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-5 flex h-5"
+                  >
+                    <i class="fab fa-github"></i>
+                  </div></div
+              ></a>
+              <a href="https://www.linkedin.com/in/ayomide-ibosiola/">
+                <div class="flex lg:block cursor-pointer items-center justify-center">
+                  <div
+                    class="text-xs font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-5 flex h-5"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </div></div
+              ></a>
             </div>
           </div>
-
           <!--  -->
         </div>
       </div>
-      <div
-        class="flex justify-between text-gray-300 font-bold cursor-pointer xl:-mt-12 lg:-mt-1 md:-mt-6"
-      >
-        <div class="text-8xl"><p>01</p></div>
-        <div class="transform rotate-90">
-          <p class="text-sm text-bold">
-            SCROLL DOWN <i class="fas fa-arrow-alt-right"></i>
-          </p>
-        </div>
+      <div class="lg:flex hidden justify-end cursor-pointer">
+        <i class="text-gray-300 fal fa-arrow-down text-4xl animate-bounce"></i>
       </div>
     </section>
 
@@ -218,27 +217,95 @@
               </div>
               <p class="text-gray-500 text-sm">Frontend Developer</p>
             </div>
-            <div class="flex justify-between text-sm mt-10">
-              <p class="text-gray-500">
-                Feel free to
-                <span class="text-white cursor-pointer">drop me a line</span> or check my
-                <span class="text-white cursor-pointer">GitHub</span> and
-                <span class="text-white cursor-pointer"> LinkedIn</span>
-              </p>
-            </div>
+            <div class="flex justify-between text-sm mt-10"></div>
           </div>
         </div>
       </div>
     </section>
     <section
-      class="pb-16 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12"
+      class="pb-5 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12"
       style="background-color: #191919"
     >
-      <div class="flex justify-center">
-        <p class="text-bold text-white text-4xl">Get in touch!</p>
-        <p class="text-semibold text-gray-300 text-2xl">For enquires, conferences, work or technical workshops.</p>
+      <div class="">
+        <p class="flex justify-center text-bold text-white text-4xl">Get in touch!</p>
+        <p class="flex justify-center text-semibold text-gray-300 text-2xl pt-12 pb-24">
+          For enquires, conferences, work or technical workshops.
+        </p>
       </div>
-      <div>b</div>
+      <div class="pb-24 flex justify-evenly text-gray-300 text-lg">
+        <a
+          href="https://www.google.com/maps/place/8+Kayode+Arikawe+St,+Ikosi+Ketu,+Lagos/data=!4m2!3m1!1s0x103b92fa4ecebf0f:0x5d279185dc75274?sa=X&ved=2ahUKEwjTvqCvttbvAhXFiVwKHW3mDmEQ8gEwAHoECAMQAQ"
+          target="_blank"
+        >
+          <div
+            class="p-4 space-y-4 hover:bg-gray-300 hover:text-black rounded-xl cursor-pointer"
+          >
+            <div class="text-center">
+              <i class="fas fa-map-marker-alt text-3xl text-gray-600"></i>
+              <p>8, Kayode Arikawe street, Ikosi-Ketu.</p>
+            </div>
+          </div>
+        </a>
+        <a href="tel:+2348099691225">
+          <div
+            class="p-4 space-y-4 hover:bg-gray-300 hover:text-black rounded-xl cursor-pointer"
+          >
+            <div class="text-center">
+              <i class="fas fa-phone-alt text-3xl text-gray-600"></i>
+              <p>+234 809 969 1225</p>
+            </div>
+          </div>
+        </a>
+        <a href="mailto:ayomideibosiola100@gmail.com">
+          <div
+            class="p-4 space-y-4 hover:bg-gray-300 hover:text-black rounded-xl cursor-pointer"
+          >
+            <div class="text-center">
+              <i class="fas fa-envelope text-3xl text-gray-600"></i>
+              <p>ayomideibosiola100@gmail.com</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="flex justify-center">
+        <a href="https://web.facebook.com/ayomide.ibosiola">
+          <div class="flex justify-center">
+            <div
+              class="text-2xl font-semibold text-black bg-white rounded-full m-4 items-center justify-center w-12 flex h-12"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </div>
+          </div>
+        </a>
+        <a href="https://twitter.com/ayomideIbosiola">
+          <div class="flex justify-center">
+            <div
+              class="text-2xl font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-12 flex h-12"
+            >
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+        </a>
+        <a href="https://github.com/ayomideEnoch">
+          <div class="flex justify-center">
+            <div
+              class="text-2xl font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-12 flex h-12"
+            >
+              <i class="fab fa-github"></i>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ayomide-ibosiola/">
+          <div class="flex justify-center">
+            <div
+              class="text-2xl font-semibold text-black bg-white rounded-full m-4 justify-center items-center w-12 flex h-12"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </div>
+        </a>
+      </div>
     </section>
   </div>
 </template>
