@@ -242,6 +242,7 @@
             :alt="portfolio.title"
             class="w-full h-full inset-0 object-cover rounded-md"
           />
+          
         </div>
       </div>
     </section>
@@ -341,6 +342,26 @@ export default {
       mobileMenu: false,
       portfolios: [
         {
+          image: "port3.jpg",
+          title: "Invoice App",
+          description: "An invoice app that do, do and do, that do!",
+        },
+        {
+          image: "port2.jpg",
+          title: "Invoice App",
+          description: "An invoice app that do, do and do, that do!",
+        },
+              {
+          image: "port3.jpg",
+          title: "Invoice App",
+          description: "An invoice app that do, do and do, that do!",
+        },
+        {
+          image: "port2.jpg",
+          title: "Invoice App",
+          description: "An invoice app that do, do and do, that do!",
+        },
+              {
           image: "port3.jpg",
           title: "Invoice App",
           description: "An invoice app that do, do and do, that do!",
