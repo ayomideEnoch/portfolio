@@ -231,18 +231,33 @@
         my portfolio
       </div>
 
-      <div class="grid grid-cols-2 gap-8 mt-10 mx-10">
+      <div class="grid grid-cols-2 gap-16 mt-10 mx-8">
         <div
           v-for="portfolio in portfolios"
           :key="portfolio.index"
-          class="cursor-pointer h-96"
+          class="h-72 relative overflow-hidden"
         >
           <img
             :src="require(`./assets/${portfolio.image}`)"
             :alt="portfolio.title"
-            class="w-full h-full inset-0 object-cover rounded-md"
+            class="w-full h-full inset-0 object-cover rounded-md z-0 absolute overflow-hidden"
           />
-          
+          <div
+            class="bg-blue-500 bg-opacity-50 z-10 w-full h-full absolute p-8 opacity-0 hover:opacity-100 duration-1000 rounded-md"
+          >
+            <div
+              class="text-center text-white border-2 border-gray-200 w-full h-full rounded-md p-2 z-20 relative"
+            >
+              <p class="text-2xl font-semibold">{{ portfolio.title }}</p>
+
+              <p class="text-xl">{{ portfolio.description }}</p>
+              <a :href="portfolio.link" class="absolute bottom-2 -ml-14 pl-0.5">
+                <button class="bg-black px-3 py-2 rounded-md cursor-pointer">
+                  Click Here
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -345,13 +360,14 @@ export default {
           image: "port3.jpg",
           title: "Invoice App",
           description: "An invoice app that do, do and do, that do!",
+          link: "https://invoice-web.netlify.app/",
         },
         {
           image: "port2.jpg",
           title: "Invoice App",
           description: "An invoice app that do, do and do, that do!",
         },
-              {
+        {
           image: "port3.jpg",
           title: "Invoice App",
           description: "An invoice app that do, do and do, that do!",
@@ -361,7 +377,7 @@ export default {
           title: "Invoice App",
           description: "An invoice app that do, do and do, that do!",
         },
-              {
+        {
           image: "port3.jpg",
           title: "Invoice App",
           description: "An invoice app that do, do and do, that do!",
