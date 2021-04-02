@@ -16,9 +16,16 @@
         </div>
 
         <div class="sm:flex space-x-12 hidden">
-          <button class="font-bold focus:outline-none">ABOUT</button>
-          <button class="font-bold focus:outline-none">PORTFOLIO</button>
-          <button class="font-bold focus:outline-none">CONTACT</button>
+          <a href="/#about"
+            ><button class="font-bold focus:outline-none">ABOUT</button></a
+          
+          >
+          <a href="/#portfolio"
+            ><button class="font-bold focus:outline-none">PORTFOLIO</button></a
+          >
+          <a href="/#contact"
+            ><button class="font-bold focus:outline-none">CONTACT</button></a
+          >
         </div>
         <div @click="mobileMenu = true" class="block sm:hidden text-2xl cursor-pointer">
           <i class="far fa-bars"></i>
@@ -123,6 +130,7 @@
 
     <!-- About Me -->
     <section
+      id="about"
       class="pb-16 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12"
       style="background-color: #252628"
     >
@@ -224,6 +232,7 @@
     </section>
     <!-- Portfolio -->
     <section
+      id="portfolio"
       class="pb-16 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12"
       style="background-color: #222222"
     >
@@ -263,6 +272,7 @@
     </section>
     <!-- Contact Me -->
     <section
+      id="contact"
       class="pb-5 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12"
       style="background-color: #191919"
     >
