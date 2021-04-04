@@ -7,18 +7,19 @@
       <!-- Navbar -->
       <div class="flex justify-between text-gray-300">
         <div>
+          <a>
           <button class="flex items-center focus:outline-none">
             <i class="fas fa-laptop-code"></i>
             <div class="font-bold cursor pl-5">
               <span class="text-white">Ayòmídé</span> ÌBÒSÍOLÁ
             </div>
           </button>
+          </a>
         </div>
 
         <div class="sm:flex space-x-12 hidden">
           <a href="/#about"
             ><button class="font-bold focus:outline-none">ABOUT</button></a
-          
           >
           <a href="/#portfolio"
             ><button class="font-bold focus:outline-none">PORTFOLIO</button></a
@@ -56,13 +57,13 @@
       </div>
       <!-- Navbar ends -->
       <div>
-        <div class="mt-12 xl:mt-4">
+        <div class="mt-12 xl:mt-12">
           <!--  -->
           <div class="items-center lg:flex">
             <div class="">
               <img
-                class="lg:rounded-full inset-0 object-cover lg:ml-44 ml-0 w-full"
-                src="./assets/portfolio-man.jpg"
+                class="lg:rounded-full inset-0 object-cover lg:ml-44 ml-0 w-full h-96 bg-cover"
+                src="./assets/portfolio-img2.jpg"
                 alt=""
               />
             </div>
@@ -124,14 +125,16 @@
         </div>
       </div>
       <div class="lg:flex hidden justify-end cursor-pointer">
-        <i class="text-gray-300 fal fa-arrow-down text-4xl animate-bounce"></i>
+        <a href="/#bottom"
+          ><i class="text-gray-300 fal fa-arrow-down text-4xl animate-bounce"></i
+        ></a>
       </div>
     </section>
 
     <!-- About Me -->
     <section
       id="about"
-      class="pb-16 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12"
+      class="pb-7 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-7"
       style="background-color: #252628"
     >
       <div class="font-semibold">
@@ -233,14 +236,14 @@
     <!-- Portfolio -->
     <section
       id="portfolio"
-      class="pb-16 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-12"
+      class="pb-7 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-7"
       style="background-color: #222222"
     >
       <div class="uppercase text-white text-3xl font-semibold text-center">
         my portfolio
       </div>
 
-      <div class="grid grid-cols-2 gap-16 mt-10 mx-8">
+      <div class="grid grid-cols-2 gap-16 mt-7 mx-8">
         <div
           v-for="portfolio in portfolios"
           :key="portfolio.index"
@@ -317,7 +320,7 @@
           </div>
         </a>
       </div>
-      <div class="flex justify-center">
+      <div id="bottom" class="flex justify-center">
         <a href="https://web.facebook.com/ayomide.ibosiola">
           <div class="flex justify-center">
             <div
@@ -367,15 +370,18 @@ export default {
       mobileMenu: false,
       portfolios: [
         {
-          image: "port3.jpg",
+          image: "port1.jpg",
           title: "Invoice App",
-          description: "An invoice app that do, do and do, that do!",
+          description:
+            "An app that gives invoice details with payment status and printing options!",
           link: "https://invoice-web.netlify.app/",
         },
         {
           image: "port2.jpg",
-          title: "Invoice App",
-          description: "An invoice app that do, do and do, that do!",
+          title: "Room Booking App",
+          description:
+            "An app that allows you select your room of choice, depending on size and other preferences!",
+          link: "https://luxurious-rooms.netlify.app/",
         },
         {
           image: "port3.jpg",
@@ -383,17 +389,17 @@ export default {
           description: "An invoice app that do, do and do, that do!",
         },
         {
-          image: "port2.jpg",
+          image: "port4.jpg",
           title: "Invoice App",
           description: "An invoice app that do, do and do, that do!",
         },
         {
-          image: "port3.jpg",
+          image: "port5.jpg",
           title: "Invoice App",
           description: "An invoice app that do, do and do, that do!",
         },
         {
-          image: "port2.jpg",
+          image: "port4.jpg",
           title: "Invoice App",
           description: "An invoice app that do, do and do, that do!",
         },
@@ -445,4 +451,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+</style>
