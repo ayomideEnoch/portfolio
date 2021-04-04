@@ -7,13 +7,13 @@
       <!-- Navbar -->
       <div class="flex justify-between text-gray-300">
         <div>
-          <a>
-          <button class="flex items-center focus:outline-none">
-            <i class="fas fa-laptop-code"></i>
-            <div class="font-bold cursor pl-5">
-              <span class="text-white">Ayòmídé</span> ÌBÒSÍOLÁ
-            </div>
-          </button>
+          <a href="/#">
+            <button class="flex items-center focus:outline-none">
+              <i class="fas fa-laptop-code"></i>
+              <div class="font-bold cursor pl-5">
+                <span class="text-white">Ayòmídé</span> ÌBÒSÍOLÁ
+              </div>
+            </button>
           </a>
         </div>
 
