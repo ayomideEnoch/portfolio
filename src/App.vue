@@ -7,7 +7,7 @@
       <!-- Navbar -->
       <div class="flex justify-between text-gray-300">
         <div>
-          <a href="/#">
+          <a href="/">
             <button class="flex items-center focus:outline-none">
               <i class="fas fa-laptop-code"></i>
               <div class="font-bold cursor pl-5">
