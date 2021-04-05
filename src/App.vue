@@ -457,8 +457,8 @@ export default {
   src: local("Merienda"),
     url("./assets/fonts/Merienda/Merienda-Bold.ttf") format("truetype");
 }
- .description{
-     font-family: "Merienda", Helvetica, Arial;
-     font-size: 20px;
-  }
+.description {
+  font-family: "Merienda", Helvetica, Arial;
+  font-size: 20px;
+}
 </style>
