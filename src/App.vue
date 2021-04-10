@@ -398,7 +398,7 @@ export default {
           link: "https://invoice-web.netlify.app/",
         },
         {
-          image: "port2.jpg",
+          image: "room-booking.jpg",
           title: "Room Booking App",
           description:
             "An app that allows you select your room of choice, depending on size and other preferences!",
