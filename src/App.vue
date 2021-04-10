@@ -419,8 +419,8 @@ export default {
           link: "https://opensky-coven-works.netlify.app/",
         },
         {
-          image: "port5.jpg",
-          title: "Invoice App",
+          image: "online-shopping.jpg",
+          title: "Online Shopping App",
           description: "An online shopping site with sorting and filtering fields!",
         },
         {
