@@ -421,7 +421,7 @@ export default {
         {
           image: "port5.jpg",
           title: "Invoice App",
-          description: "An invoice app that do, do and do, that do!",
+          description: "An online shopping site with sorting and filtering fields!",
         },
         {
           image: "port1.jpg",
