@@ -405,14 +405,14 @@ export default {
           link: "https://luxurious-rooms.netlify.app/",
         },
         {
-          image: "port3.jpg",
+          image: "q&a.jpg",
           title: "Question and Answer App",
           description:
             "A web based game that allows audiences to answer questions and review their performance at the end of the game!",
           link: "https://q-a.netlify.app/",
         },
         {
-          image: "port4.jpg",
+          image: "flight-realtime.jpg",
           title: "Flight RealTime Info App",
           description:
             "An app that shows near-realtime information of all flights around the world!",
