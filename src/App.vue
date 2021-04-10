@@ -41,23 +41,44 @@
           @click="mobileMenu = false"
           class="w-1/5 text-white cursor-pointer pt-10 pr-6 text-right text-2xl"
         >
-          <i class="far fa-times"></i>
+          <a href="/"><i class="far fa-times"></i></a>
         </div>
 
         <div
           class="bg-white text-black w-4/5 h-screen z-20 fixed right-2 top-2 text-xl pt-8"
         >
           <!--  -->
-          <div class="space-y-12 pl-6">
-            <button class="block font-bold focus:outline-none">PORTFOLIO</button>
-            <button class="block font-bold focus:outline-none">CONTACT</button>
-            <button class="block font-bold focus:outline-none">ABOUT</button>
+          <div class="pl-6">
+            <a href="/#portfolio"
+              ><button
+                @click="mobileMenu = false"
+                class="block font-bold focus:outline-none"
+              >
+                PORTFOLIO
+              </button></a
+            >
+            <a href="/#contact"
+              ><button
+                @click="mobileMenu = false"
+                class="block font-bold focus:outline-none my-12"
+              >
+                CONTACT
+              </button></a
+            >
+            <a href="/#about"
+              ><button
+                @click="mobileMenu = false"
+                class="block font-bold focus:outline-none"
+              >
+                ABOUT
+              </button></a
+            >
           </div>
         </div>
       </div>
       <!-- Navbar ends -->
       <div>
-        <div class="mt-12 xl:mt-12">
+        <div class="mt-6 xl:mt-12">
           <!--  -->
           <div class="items-center lg:flex">
             <div class="">
@@ -75,7 +96,7 @@
                 CREATIVE
               </p>
               <p
-                class="xl:text-7xl lg:text-6xl md:text-6xl sm:text-5xl text-5xl py-5 font-bold xl:block flex justify-center"
+                class="xl:text-7xl lg:text-6xl md:text-6xl sm:text-5xl text-5xl py-5 font-bold xl:block flex justify-center md:hidden"
               >
                 DEVELOPER
               </p>
@@ -451,5 +472,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
