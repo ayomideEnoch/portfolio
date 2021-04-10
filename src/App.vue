@@ -406,8 +406,9 @@ export default {
         },
         {
           image: "port3.jpg",
-          title: "Invoice App",
-          description: "An invoice app that do, do and do, that do!",
+          title: "Question and Answer App",
+          description:
+            "A web based game that allows audiences to answer questions and review their performance at the end of the game",
         },
         {
           image: "port4.jpg",
