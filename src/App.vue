@@ -415,7 +415,7 @@ export default {
           image: "port4.jpg",
           title: "Flight RealTime Info App",
           description: "An app that shows near-realtime information of all flights around the world!",
-          link="https://opensky-coven-works.netlify.app/"
+          link: "https://opensky-coven-works.netlify.app/",
         },
         {
           image: "port5.jpg",
