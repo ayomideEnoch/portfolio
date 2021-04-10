@@ -391,7 +391,7 @@ export default {
       mobileMenu: false,
       portfolios: [
         {
-          image: "port1.jpg",
+          image: "invoice.jpg",
           title: "Invoice App",
           description:
             "An app that gives invoice details with payment status and printing options!",
@@ -409,12 +409,13 @@ export default {
           title: "Question and Answer App",
           description:
             "A web based game that allows audiences to answer questions and review their performance at the end of the game!",
-            link: "https://q-a.netlify.app/",
+          link: "https://q-a.netlify.app/",
         },
         {
           image: "port4.jpg",
           title: "Flight RealTime Info App",
-          description: "An app that shows near-realtime information of all flights around the world!",
+          description:
+            "An app that shows near-realtime information of all flights around the world!",
           link: "https://opensky-coven-works.netlify.app/",
         },
         {
@@ -423,7 +424,7 @@ export default {
           description: "An invoice app that do, do and do, that do!",
         },
         {
-          image: "port4.jpg",
+          image: "port1.jpg",
           title: "Invoice App",
           description: "An invoice app that do, do and do, that do!",
         },
