@@ -89,19 +89,19 @@
               />
             </div>
             <!--  -->
-            <div class="text-gray-300 pr-0 xl:pr-28">
+            <div class="text-gray-300 pr-0 xl:pr-28 hidden lg:block">
               <p
-                class="xl:text-8xl lg:text-7xl md:text-7xl sm:text-6xl text-6xl font-bold xl:block flex justify-center"
+                class="xl:text-8xl lg:text-7xl md:text-7xl sm:text-6xl text-6xl font-bold flex justify-center"
               >
                 CREATIVE
               </p>
               <p
-                class="xl:text-7xl lg:text-6xl md:text-6xl sm:text-5xl text-5xl py-5 font-bold xl:block flex justify-center md:hidden"
+                class="xl:text-7xl lg:text-6xl md:text-6xl sm:text-5xl text-5xl py-5 font-bold flex justify-center"
               >
                 DEVELOPER
               </p>
               <p
-                class="xl:text-4xl lg:text-3xl md:text-3xl sm:text-2xl text-2xl text-gray-500 font-normal flex justify-center"
+                class="xl:text-4xl text-2xl text-gray-500 font-normal flex justify-center"
               >
                 SENSIBLE TO FRONTEND
               </p>
@@ -155,7 +155,7 @@
     <!-- About Me -->
     <section
       id="about"
-      class="pb-7 min-h-screen w-full lg:px-24 md:px-12 px-4 pt-7"
+      class="pb-7 min-h-screen w-full lg:px-24 md:px-12 px-8 pt-7"
       style="background-color: #252628"
     >
       <div class="font-semibold">
@@ -301,12 +301,12 @@
       style="background-color: #191919"
     >
       <div class="">
-        <p class="flex justify-center text-bold text-white text-4xl">Get in touch!</p>
-        <p class="flex justify-center text-semibold text-gray-300 text-2xl pt-12 pb-24">
+        <p class="text-center text-bold text-white text-4xl">Get in touch!</p>
+        <p class="text-center text-semibold text-gray-300 text-2xl pt-12 pb-24">
           For enquires, conferences, work or technical workshops.
         </p>
       </div>
-      <div class="pb-24 flex justify-evenly text-gray-300 text-lg">
+      <div class="pb-24 md:flex block justify-between text-gray-300 text-lg">
         <a
           href="https://www.google.com/maps/place/8+Kayode+Arikawe+St,+Ikosi+Ketu,+Lagos/data=!4m2!3m1!1s0x103b92fa4ecebf0f:0x5d279185dc75274?sa=X&ved=2ahUKEwjTvqCvttbvAhXFiVwKHW3mDmEQ8gEwAHoECAMQAQ"
           target="_blank"
