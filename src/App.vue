@@ -283,7 +283,7 @@
             >
               <p class="text-2xl font-semibold">{{ portfolio.title }}</p>
 
-              <p class="text-sm">{{ portfolio.description }}</p>
+              <p class="text-lg">{{ portfolio.description }}</p>
               <a :href="portfolio.link" class="absolute bottom-2 -ml-14 pl-0.5">
                 <button class="bg-black px-3 py-2 rounded-md cursor-pointer text-white">
                   Click Here
@@ -415,7 +415,7 @@ export default {
           image: "flight-realtime.png",
           title: "Flight RealTime Info App",
           description:
-            "An app that shows near-realtime information of all flights around the world! For demo, input 'demodemo@mail.com' and 'password' in email and password fields respectively",
+            "An app that shows realtime info of flights around the world! For demo, input email: demo@demo.com and password: demodemo!",
           link: "https://opensky-coven-works.netlify.app/",
         },
         {
