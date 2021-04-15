@@ -264,7 +264,7 @@
         my portfolio
       </div>
 
-      <div class="grid grid-cols-2 gap-16 mt-7 mx-8">
+      <div class="grid md:grid-cols-2 grid-cols-1 gap-16 mt-7 mx-8">
         <div
           v-for="portfolio in portfolios"
           :key="portfolio.index"
@@ -273,19 +273,19 @@
           <img
             :src="require(`./assets/${portfolio.image}`)"
             :alt="portfolio.title"
-            class="w-full h-full inset-0 object-cover rounded-md z-0 absolute overflow-hidden"
+            class="w-full h-full inset-0 rounded-md z-0 absolute overflow-hidden"
           />
           <div
             class="bg-blue-500 bg-opacity-50 z-10 w-full h-full absolute p-8 opacity-0 hover:opacity-100 duration-1000 rounded-md"
           >
             <div
-              class="text-center text-white border-2 border-gray-200 w-full h-full rounded-md p-2 z-20 relative"
+              class="text-center text-black border-2 border-gray-200 w-full h-full rounded-md p-2 z-20 relative"
             >
               <p class="text-2xl font-semibold">{{ portfolio.title }}</p>
 
               <p class="text-xl">{{ portfolio.description }}</p>
               <a :href="portfolio.link" class="absolute bottom-2 -ml-14 pl-0.5">
-                <button class="bg-black px-3 py-2 rounded-md cursor-pointer">
+                <button class="bg-black px-3 py-2 rounded-md cursor-pointer text-white">
                   Click Here
                 </button>
               </a>
@@ -391,42 +391,44 @@ export default {
       mobileMenu: false,
       portfolios: [
         {
-          image: "invoice.jpg",
+          image: "invoice.png",
           title: "Invoice App",
           description:
             "An app that gives invoice details with payment status and printing options!",
           link: "https://invoice-web.netlify.app/",
         },
         {
-          image: "room-booking.jpg",
+          image: "luxurious-rooms.png",
           title: "Room Booking App",
           description:
             "An app that allows you select your room of choice, depending on size and other preferences!",
           link: "https://luxurious-rooms.netlify.app/",
         },
         {
-          image: "q&a.jpg",
+          image: "q-a.png",
           title: "Question and Answer App",
           description:
             "A web based game that allows audiences to answer questions and review their performance at the end of the game!",
           link: "https://q-a.netlify.app/",
         },
         {
-          image: "flight-realtime.jpg",
+          image: "flight-realtime.png",
           title: "Flight RealTime Info App",
           description:
-            "An app that shows near-realtime information of all flights around the world!",
+            "An app that shows near-realtime information of all flights around the world! For demo, input 'demodemo@mail.com' and 'password' in email and password fields respectively",
           link: "https://opensky-coven-works.netlify.app/",
         },
         {
-          image: "online-shopping.jpg",
+          image: "online-shopping.png",
           title: "Online Shopping App",
           description: "An online shopping site with sorting and filtering fields!",
+          link: "https://aid-consults.netlify.app/",
         },
         {
-          image: "port1.jpg",
-          title: "Invoice App",
-          description: "An invoice app that do, do and do, that do!",
+          image: "portfolio.png",
+          title: "Portfolio-Web App",
+          description: "A website that shows Ayomide's brief details!",
+          link: "https://ayomideibosiola.netlify.app/",
         },
       ],
       skills: [
