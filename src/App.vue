@@ -165,7 +165,8 @@
         </div>
         <p class="text-gray-500 py-3 spacing text-3xl">My name is Ayomide Ibosiola.</p>
         <p class="text-white text-3xl">
-          I'm a Nigerian Frontend Developer based in Ikosi-Ketu, Lagos state, Nigeria.
+          I'm a Nigerian Frontend Developer and Technical Copywriter based in Ikosi-Ketu,
+          Lagos state, Nigeria.
         </p>
         <div class="mt-8 sm:flex block">
           <div class="sm:w-6/12 w-full text-2xl text-white sm:mr-4 mr-0">
@@ -222,6 +223,13 @@
             <p class="text-md text-white">Experience</p>
             <div class="pt-4">
               <div class="flex justify-between text-sm">
+                <p class="text-white">Marketpath CMS - Contract</p>
+                <p class="text-gray-500">Aug 2021 - Present</p>
+              </div>
+              <p class="text-gray-500 text-sm">Technical Copywriter</p>
+            </div>
+            <div class="pt-4">
+              <div class="flex justify-between text-sm">
                 <p class="text-white">Freelance</p>
                 <p class="text-gray-500">2019 - Present</p>
               </div>
@@ -229,7 +237,7 @@
             </div>
             <div class="pt-4">
               <div class="flex justify-between text-sm">
-                <p class="text-white">Royal Crystal Airways</p>
+                <p class="text-white">Royal Crystal Airways Limited - Contract</p>
                 <p class="text-gray-500">2020 - 2021</p>
               </div>
               <p class="text-gray-500 text-sm">Frontend Developer</p>
@@ -415,7 +423,7 @@ export default {
           image: "flight-realtime.png",
           title: "Flight RealTime Info App",
           description:
-            "An app that shows realtime info of flights around the world! For demo, input email: demo@demo.com and password: demodemo!",
+            "An app that shows realtime info of flights around the world! \n For demo, input email: demo@demo.com and password: demodemo!",
           link: "https://opensky-coven-works.netlify.app/",
         },
         {
