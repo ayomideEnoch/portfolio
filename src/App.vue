@@ -221,6 +221,13 @@
           <div class="w-1/12 mb-4"></div>
           <div class="sm:w-5/12 w-full">
             <p class="text-md text-white">Experience</p>
+              <div class="pt-4">
+              <div class="flex justify-between text-sm">
+                <p class="text-white">Tecnovos Technologies LLP</p>
+                <p class="text-gray-500">Sept 2021 - Present</p>
+              </div>
+              <p class="text-gray-500 text-sm">Frontend Developer</p>
+            </div>
             <div class="pt-4">
               <div class="flex justify-between text-sm">
                 <p class="text-white">Marketpath CMS - Contract</p>
